@@ -16,7 +16,7 @@ $ sudo apt-get install build-essential libssl-dev python-dev
 $ sudo yum install gcc openssl-devel python-devel
 
 # Alpine Linux (Docker Containers)
-$ apk add openssl-dev
+$ apk add gcc openssl-dev python-dev
 
 # Mac
 # Without setting the flags below, install will fail to find the necessary files
