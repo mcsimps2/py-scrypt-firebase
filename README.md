@@ -15,6 +15,9 @@ $ sudo apt-get install build-essential libssl-dev python-dev
 # Fedora, RHEL
 $ sudo yum install gcc openssl-devel python-devel
 
+# Alpine Linux (Docker Containers)
+$ apk add openssl-dev
+
 # Mac
 # Without setting the flags below, install will fail to find the necessary files
 $ brew install openssl
