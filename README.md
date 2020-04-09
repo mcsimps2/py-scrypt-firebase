@@ -9,7 +9,7 @@ Instructions
 ============
 Install as follows
 ```angular2
-pip install git+https://github.com/mcsimps2/py-scrypt-firebase.git@master
+pip install git+https://github.com/mcsimps2/py-scrypt-firebase.git@master#egg=scrypt
 ```
 
 
