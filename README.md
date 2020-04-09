@@ -9,7 +9,20 @@ Instructions
 ============
 Install as follows
 ```angular2
-pip install git+https://github.com/mcsimps2/py-scrypt-firebase.git@master#egg=scrypt
+# Debian/Ubuntu
+$ sudo apt-get install build-essential libssl-dev python-dev
+
+# Fedora, RHEL
+$ sudo yum install gcc openssl-devel python-devel
+
+# Mac
+# Without setting the flags below, install will fail to find the necessary files
+$ brew install openssl
+$ export CFLAGS="-I$(brew --prefix openssl)/include $CFLAGS"
+$ export LDFLAGS="-L$(brew --prefix openssl)/lib $LDFLAGS"
+
+# All
+$ pip install git+https://github.com/mcsimps2/py-scrypt-firebase.git@master#egg=scrypt
 ```
 
 
