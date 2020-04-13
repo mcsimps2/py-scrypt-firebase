@@ -1,20 +1,13 @@
 recursive-include scrypt-1.2.1 *.h
 recursive-include scrypt-windows-stubs *.h
 include README.rst
+include README.md
 include LICENSE
 include src/*.c
 include MANIFEST.in
-include MANIFEST.in
 
-include scrypt/__init__.py
-include scrypt/scrypt.py
-include tests/__init__.py
-include tests/ciphertexts.csv
-include tests/hashvectors.csv
-include tests/test_scrypt_c_module.py
-include tests/test_scrypt.py
-include tests/test_scrypt_py2x.py
-include tests/test_scrypt_py3x.py
+include pyscryptfirebase/__init__.py
+include pyscryptfirebase/pyscryptfirebase.py
 
 # Exclude what we don't want to include
 prune build

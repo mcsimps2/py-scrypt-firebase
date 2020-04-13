@@ -102,15 +102,26 @@ scrypt_module = Extension(
     libraries=libraries)
 
 setup(name='pyscryptfirebase',
-      version='0.0.1',
-      description='Python wrapper for Firebase scrypt password hashing',
+      version='0.0.2',
+      description='Python wrapper for the Firebase scrypt password hashing utility',
       author='Matt Simpson',
       author_email='mcsimps2@gmail.com',
-      maintainer="Matt Simpson",
-      maintainer_email="mcsimps2@gmail.com",
       url='https://github.com/mcsimps2/py-scrypt-firebase/',
-      packages=['scrypt'],
+      packages=['pyscryptfirebase'],
       ext_modules=[scrypt_module],
-      classifiers=[],
+      classifiers=[
+           'Intended Audience :: Developers',
+           'License :: OSI Approved :: BSD License',
+           'Programming Language :: Python :: 2.7',
+           'Programming Language :: Python :: 3',
+           'Programming Language :: Python :: 3.4',
+           'Programming Language :: Python :: 3.5',
+           'Programming Language :: Python :: 3.6',
+           'Programming Language :: Python :: 3.7',
+           'Topic :: Security :: Cryptography',
+           'Topic :: Software Development :: Libraries',
+           'Operating System :: OS Independent',
+      ],
       license='2-clause BSD',
-      long_description=open('README.md').read())
+      long_description=open('README.md').read(),
+      long_description_content_type="text/markdown")
