@@ -1,4 +1,5 @@
 # pyscryptfirebase
+PyPI: https://pypi.org/project/pyscryptfirebase/
 A Python wrapper of Firebase's custom scrypt implementation.  A combined fork of scrypt and Firebase scrypt.
 
 Firebase scrypt for password hashing: https://github.com/firebase/scrypt
