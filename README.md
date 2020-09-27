@@ -1,5 +1,4 @@
 # pyscryptfirebase
-PyPI: https://pypi.org/project/pyscryptfirebase/
 A Python wrapper of Firebase's custom scrypt implementation.  A combined fork of scrypt and Firebase scrypt.
 
 Firebase scrypt for password hashing: https://github.com/firebase/scrypt
@@ -32,7 +31,7 @@ $ export CFLAGS="-I$(brew --prefix openssl)/include $CFLAGS"
 $ export LDFLAGS="-L$(brew --prefix openssl)/lib $LDFLAGS"
 ```
 
-Then install `pyscriptfirebase`:
+Then install `pyscriptfirebase` from PyPI (https://pypi.org/project/pyscryptfirebase/):
 ```
 $ pip install pyscriptfirebase
 ```
