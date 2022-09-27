@@ -87,7 +87,7 @@ output = pyscryptfirebase.encrypt(
     memcost,
     password
 )
-encoded_output = base64.b64encode(result)
+encoded_output = base64.b64encode(output)
 print(encoded_output)
 ```
 
